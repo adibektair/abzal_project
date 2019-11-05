@@ -4,13 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class Service extends Model
 {
-
     protected $table = "countries";
     protected $fillable = [
         'id',
-        'name'
+        'name',
+        'costPerDay',
+        'costPerHour'
     ];
     protected $primaryKey = 'id';
 }

@@ -4,10 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class Level extends Model
 {
-
-    protected $table = "countries";
+    protected $table = "levels";
     protected $fillable = [
         'id',
         'name'

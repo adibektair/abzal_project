@@ -4,13 +4,12 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class Certificate_photo extends Model
 {
-
-    protected $table = "countries";
+    protected $table = "certificate_photos";
     protected $fillable = [
         'id',
-        'name'
+        'path'
     ];
     protected $primaryKey = 'id';
 }

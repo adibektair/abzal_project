@@ -4,13 +4,12 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class User_photo extends Model
 {
-
-    protected $table = "countries";
+    protected $table = 'user_photos';
     protected $fillable = [
         'id',
-        'name'
+        'path'
     ];
     protected $primaryKey = 'id';
 }

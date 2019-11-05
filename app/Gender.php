@@ -4,10 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class Gender extends Model
 {
-
-    protected $table = "countries";
+    protected $table = "genders";
     protected $fillable = [
         'id',
         'name'
