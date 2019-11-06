@@ -12,6 +12,10 @@ class Country extends Model
         'id',
         'name'
     ];
+    protected $primaryKey = 'id';
 
-
+    public function city()
+    {
+        return $this->belongsTo('App\City');
+    }
 }
