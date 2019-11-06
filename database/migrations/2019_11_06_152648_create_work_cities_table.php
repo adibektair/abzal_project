@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateServicesTable extends Migration
+class CreateWorkCitiesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,12 @@ class CreateServicesTable extends Migration
      */
     public function up()
     {
-        Schema::create('services', function (Blueprint $table) {
+        Schema::create('work_cities', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->foreign('city_id')->references('id')->on('cities');
-            $table->double('costPerDay');
-            $table->double('costPerHour');
-            $table->foreign('value_id')->references('id')->on('values');
             $table->timestamps();
+            $table->bigInteger('interpretor_id')->unsigned()->index();
+            $table->foreign('interpretor_id')->references('id')->on('interpretors');
         });
     }
 
@@ -31,6 +29,6 @@ class CreateServicesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('services');
+        Schema::dropIfExists('work_cities');
     }
 }

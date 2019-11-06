@@ -12,4 +12,8 @@ class Level extends Model
         'name'
     ];
     protected $primaryKey = 'id';
+    public function language()
+    {
+        return $this->belongsTo('App\Language');
+    }
 }

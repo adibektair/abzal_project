@@ -4,17 +4,17 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Value extends Model
+class Work_city extends Model
 {
-    protected $table = "values";
+    protected $table = 'work_cities';
     protected $fillable = [
         'id',
         'name'
     ];
     protected $primaryKey = 'id';
 
-    public function user()
+    public function interpretor()
     {
-        return $this->belongsTo('App\Service');
+        return $this->belongsToMany('App\Interpretor');
     }
 }

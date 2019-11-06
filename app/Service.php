@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Service extends Model
 {
-    protected $table = "countries";
+    protected $table = "services";
     protected $fillable = [
         'id',
         'name',
@@ -14,4 +14,13 @@ class Service extends Model
         'costPerHour'
     ];
     protected $primaryKey = 'id';
+
+    public function value(){
+        return $this->hasOne('App\Value');
+    }
+
+    public function interpretor()
+    {
+        return $this->belongsTo('App\Interpretor');
+    }
 }

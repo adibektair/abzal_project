@@ -12,4 +12,9 @@ class User_photo extends Model
         'path'
     ];
     protected $primaryKey = 'id';
+
+    public function interpretor()
+    {
+        return $this->belongsTo('App\Interpretor');
+    }
 }

@@ -12,4 +12,9 @@ class Messenger extends Model
         'name'
     ];
     protected $primaryKey = 'id';
+
+    public function interpretor()
+    {
+        return $this->belongsTo('App\Interpretor');
+    }
 }

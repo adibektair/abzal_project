@@ -12,4 +12,14 @@ class City extends Model
         'name'
     ];
     protected $primaryKey = 'id';
+
+    public function country(){
+        return $this->hasOne('App\Country');
+    }
+
+    public function interpretor()
+    {
+        return $this->belongsTo('App\Interpretator');
+    }
+
 }
