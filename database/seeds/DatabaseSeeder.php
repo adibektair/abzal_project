@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
              LanguagesTableSeeder::class,
              CitiesTableSeeder::class,
              ExtraInfosTableSeeder::class,
+             ExcursionsTableSeeder::class,
              ]);
     }
 }
