@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/get-countries', ['uses' => 'ApiController@getCountries']);
+Route::post('/get-cities', ['uses' => 'ApiController@getCityByCountryId']);
