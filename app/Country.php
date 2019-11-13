@@ -14,8 +14,8 @@ class Country extends Model
     ];
     protected $primaryKey = 'id';
 
-    public function city()
+    public function cities()
     {
-        return $this->belongsTo('App\City');
+        return $this->hasMany('App\City');
     }
 }
