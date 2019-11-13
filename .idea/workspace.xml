@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6fb674-d5d3-4f73-b834-a798ca9f13a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CitiesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/GendersTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LanguagesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LevelsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/MessengersTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ValuesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Excursion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ExtraInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_11_130534_create_extra_infos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_11_131550_create_excursions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_11_131752_create_interpretors_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ExcursionsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ExtraInfosTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Interpretor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Interpretor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_135623_create_languages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_135623_create_languages_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_06_145828_create_interpretors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +175,9 @@
       <workItem from="1573133081163" duration="656000" />
       <workItem from="1573366999318" duration="8586000" />
       <workItem from="1573376305421" duration="5047000" />
-      <workItem from="1573458716147" duration="1055000" />
+      <workItem from="1573458716147" duration="1876000" />
+      <workItem from="1573475776083" duration="2780000" />
+      <workItem from="1573648416823" duration="2099000" />
     </task>
     <servers />
   </component>

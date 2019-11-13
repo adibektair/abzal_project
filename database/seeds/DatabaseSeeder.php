@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
              ValuesTableSeeder::class,
              LanguagesTableSeeder::class,
              CitiesTableSeeder::class,
+             ExtraInfosTableSeeder::class,
              ]);
     }
 }
