@@ -17,8 +17,8 @@ class CreateWorkCitiesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->timestamps();
-            $table->bigInteger('interpretor_id')->unsigned()->index();
-            $table->foreign('interpretor_id')->references('id')->on('interpretors');
+            //$table->bigInteger('interpretor_id')->unsigned()->index();
+            //$table->foreign('interpretor_id')->references('id')->on('interpretors');
         });
     }
 

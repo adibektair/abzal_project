@@ -10,7 +10,6 @@ class Certificate_photo extends Model
     protected $fillable = [
         'id',
         'path',
-	    'certificateId'
     ];
     protected $primaryKey = 'id';
 }
