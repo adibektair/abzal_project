@@ -53,6 +53,12 @@ class Interpretor extends Model
     {
         return $this->belongsToMany('App\Work_city');
     }
+    public function extrainfo(){
+        return $this->hasMany('App\ExtraInfo');
+    }
+    public function excursion(){
+        return $this->hasMany('App\Excursion');
+    }
 
 
 }
