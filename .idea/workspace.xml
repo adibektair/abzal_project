@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6fb674-d5d3-4f73-b834-a798ca9f13a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Work_city.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_06_145828_create_interpretors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_06_152648_create_work_cities_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CitiesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/GendersTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LanguagesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/LevelsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/MessengersTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ValuesTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Country.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Gender.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Interpretor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Interpretor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Level.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Level.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Messenger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Messenger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User_photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Value.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Value.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_132548_create_cities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_132548_create_cities_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_135623_create_languages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_135623_create_languages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_140043_create_interpretors_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_142541_create_services_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_06_135915_create_services_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -358,7 +352,11 @@
       <workItem from="1572979161085" duration="4053000" />
       <workItem from="1572961825178" duration="3985000" />
       <workItem from="1573046806992" duration="6682000" />
-      <workItem from="1573053552422" duration="647000" />
+      <workItem from="1573053552422" duration="774000" />
+      <workItem from="1573133081163" duration="656000" />
+      <workItem from="1573366999318" duration="8586000" />
+      <workItem from="1573376305421" duration="5047000" />
+      <workItem from="1573458716147" duration="1055000" />
     </task>
     <servers />
   </component>
