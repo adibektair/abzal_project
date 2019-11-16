@@ -31,14 +31,16 @@ class CreateInterpretorsTable extends Migration
             $table->text('skype');
             $table->string('aboutMe');
             $table->string('education');
-            $table->string('extraInfo');
+            $table->bigInteger('extraInfo_id')->unsigned()->index();
+            $table->foreign('extraInfo_id')->references('id')->on('extra_infos');
             $table->string('experience');
             $table->bigInteger('language_id')->unsigned()->index();
             $table->foreign('language_id')->references('id')->on('languages');
             $table->bigInteger('service_id')->unsigned()->index();
             $table->foreign('service_id')->references('id')->on('services');
             $table->string('descriptionOfServices');
-            $table->string('excursions');
+            $table->bigInteger('excursions_id')->unsigned()->index();
+            $table->foreign('excursions_id')->references('id')->on('excursions');
             $table->bigInteger('certificate_id')->unsigned()->index();
 //            $table->foreign('certificate_id')->references('id')->on('certificate_photo');
             $table->timestamps();

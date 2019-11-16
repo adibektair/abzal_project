@@ -26,4 +26,5 @@ Route::get('/get-languages', ['uses' => 'ApiController@getLanguages']);
 Route::get('/get-level', ['uses' => 'ApiController@getLevel']);
 Route::get('/get-extra_infos', ['uses' => 'ApiController@getExtraInfos']);
 Route::get('/get-excursion', ['uses' => 'ApiController@getExcursion']);
+Route::get('/signUp', ['uses' => 'ApiController@signUp']);
 

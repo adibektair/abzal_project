@@ -69,7 +69,7 @@ class ApiController extends Controller
         return response()->json($json)->setStatusCode($code);
     }
 
-    public function singUp(Request $request){
+    public function signUp(Request $request){
 
     }
 }

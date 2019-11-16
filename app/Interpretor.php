@@ -18,10 +18,8 @@ class Interpretor extends Model
         'skype',
         'aboutMe',
         'education',
-        'extraInfo',
         'experience',
         'descriptionOfServices',
-        'excursions'
     ];
     protected $primaryKey = 'id';
 
