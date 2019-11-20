@@ -16,4 +16,8 @@ class Level extends Model
     {
         return $this->belongsTo('App\Language');
     }
+    public function interpretor_language()
+    {
+        return $this->belongsTo('App\Interpretor_Language');
+    }
 }

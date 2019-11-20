@@ -16,11 +16,11 @@ class ValuesTableSeeder extends Seeder
             'name' => 'USD'
         ]);
 
-        DB::table('messengers')->insert([
+        DB::table('values')->insert([
             'name' => 'EUR'
         ]);
 
-        DB::table('messengers')->insert([
+        DB::table('values')->insert([
             'name' => 'RUB'
         ]);
     }

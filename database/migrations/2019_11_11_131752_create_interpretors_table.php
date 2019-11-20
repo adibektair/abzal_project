@@ -15,8 +15,7 @@ class CreateInterpretorsTable extends Migration
     {
         Schema::create('interpretors', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('photo_id')->unsigned()->index();
-            $table->foreign('photo_id')->references('id')->on('user_photos');
+            $table->bigInteger('photo_path')->nullable();
             $table->string('name');
             $table->string('surname');
             $table->bigInteger('gender_id')->unsigned()->index();
@@ -26,22 +25,12 @@ class CreateInterpretorsTable extends Migration
             $table->foreign('city_id')->references('id')->on('cities');
             $table->string('site');
             $table->string('phoneNumber');
-            $table->bigInteger('messenger_id')->unsigned()->index();
-            $table->foreign('messenger_id')->references('id')->on('messengers');
             $table->text('skype');
             $table->string('aboutMe');
             $table->string('education');
-            $table->bigInteger('extraInfo_id')->unsigned()->index();
-            $table->foreign('extraInfo_id')->references('id')->on('extra_infos');
             $table->string('experience');
-            $table->bigInteger('language_id')->unsigned()->index();
-            $table->foreign('language_id')->references('id')->on('languages');
-            $table->bigInteger('service_id')->unsigned()->index();
-            $table->foreign('service_id')->references('id')->on('services');
             $table->string('descriptionOfServices');
-            $table->bigInteger('excursions_id')->unsigned()->index();
-            $table->foreign('excursions_id')->references('id')->on('excursions');
-            $table->bigInteger('certificate_id')->unsigned()->index();
+            $table->bigInteger('certificate_id')->nullable();
 //            $table->foreign('certificate_id')->references('id')->on('certificate_photo');
             $table->timestamps();
 

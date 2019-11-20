@@ -11,15 +11,15 @@ class ExcursionsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('extra_infos')->insert([
+        DB::table('services')->insert([
             'name' => 'Written translation'
         ]);
 
-        DB::table('extra_infos')->insert([
+        DB::table('services')->insert([
             'name' => 'Interpretation'
         ]);
 
-        DB::table('extra_infos')->insert([
+        DB::table('services')->insert([
             'name' => 'Tourist services'
         ]);
 

@@ -23,4 +23,8 @@ class Service extends Model
     {
         return $this->belongsTo('App\Interpretor');
     }
+    public function interpretor_service()
+    {
+        return $this->belongsTo('App\Interpretor_Service');
+    }
 }

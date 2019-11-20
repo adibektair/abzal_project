@@ -16,10 +16,6 @@ class CreateServicesTable extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->double('costPerDay');
-            $table->double('costPerHour');
-            $table->bigInteger('value_id')->unsigned()->index();
-            $table->foreign('value_id')->references('id')->on('values');
             $table->timestamps();
         });
     }

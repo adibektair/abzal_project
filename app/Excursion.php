@@ -12,8 +12,8 @@ class Excursion extends Model
         'name'
     ];
     protected $primaryKey = 'id';
-    public function interpretor()
+    /*public function interpretor()
     {
         return $this->belongsToMany('App\Interpretor');
-    }
+    }*/
 }
